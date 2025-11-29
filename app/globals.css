@@ -1,8 +1,9 @@
 @import "tailwindcss";
+@config "../tailwind.config.mjs";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fefdfb;
+  --foreground: #292524;
 }
 
 @theme inline {
@@ -12,11 +13,15 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Tie theme colors directly to next-themes classes on <html> */
+html.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+html.light {
+  --background: #fefdfb;
+  --foreground: #292524;
 }
 
 body {
