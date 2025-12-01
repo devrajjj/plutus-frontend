@@ -10,6 +10,10 @@ A Next.js application with a landing page and user dashboard.
 - **Theme Toggle**: Light/dark mode with persistence
 - **URL State**: Filters and sorting persist in URL parameters
 
+## Deployed App
+
+- **Live URL**: [https://plutus-frontend-ochre.vercel.app/](https://plutus-frontend-ochre.vercel.app/)
+
 ## Getting Started
 
 ```bash
